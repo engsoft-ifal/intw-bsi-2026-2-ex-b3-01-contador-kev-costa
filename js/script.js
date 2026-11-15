@@ -7,12 +7,12 @@ const btnZerar = document.querySelector("#zerar");
 displayTotal.textContent = contador;
 
 btnSomar.addEventListener("click", () => {
-    conatador++;
+    contador++;
     displayTotal.textContent = contador;
 });
 
 btnZerar.addEventListener("click", () => {
-    conatador = 0;
+    contador = 0;
     displayTotal.textContent = contador;
 });
 
